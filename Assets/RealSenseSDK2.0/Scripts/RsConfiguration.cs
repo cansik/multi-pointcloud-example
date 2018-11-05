@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Threading;
 using Intel.RealSense;
 
 [Serializable]
@@ -35,6 +36,8 @@ public struct RsConfiguration
                 }
                 else
                 {
+                    // fixed concurrency bug
+                    Thread.Sleep(500);
                     cfg.EnableDeviceFromFile(PlaybackFile);
                 }
                 break;

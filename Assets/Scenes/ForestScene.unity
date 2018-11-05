@@ -275,6 +275,26 @@ MonoBehaviour:
   OrbitCursor: {fileID: 2800000, guid: 99fe0c017bedc41c3a8badde613ed2b6, type: 3}
   PanCursor: {fileID: 2800000, guid: 2fbfad476bf86494b99870e9937284cd, type: 3}
   ZoomCursor: {fileID: 2800000, guid: 048676fc1e3ef4beea0658d73a12521b, type: 3}
+--- !u!1 &767764016 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1649515266839326, guid: a373cb4460200774cbd7eabd5efab5ba,
+    type: 2}
+  m_PrefabInternal: {fileID: 795920438}
+--- !u!114 &767764017
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 767764016}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 044bc4dc544f34a78a8cee3f5e4e3a36, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _order: 0
+  _fork: 0
+  _minDistance: 0
+  _maxDistance: 850
 --- !u!1001 &795920438
 Prefab:
   m_ObjectHideFlags: 0
@@ -343,6 +363,16 @@ Prefab:
         type: 2}
       propertyPath: _fork
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 114925312041241192, guid: a373cb4460200774cbd7eabd5efab5ba,
+        type: 2}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 114925312041241192, guid: a373cb4460200774cbd7eabd5efab5ba,
+        type: 2}
+      propertyPath: _filterMagnitude
+      value: 2
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: a373cb4460200774cbd7eabd5efab5ba, type: 2}
@@ -421,6 +451,21 @@ Prefab:
     - target: {fileID: 1153961737184912, guid: d2790e271f1a64347bb2ede5601b1e23, type: 2}
       propertyPath: m_IsActive
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 114866818567473902, guid: d2790e271f1a64347bb2ede5601b1e23,
+        type: 2}
+      propertyPath: DeviceConfiguration.mode
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 114866818567473902, guid: d2790e271f1a64347bb2ede5601b1e23,
+        type: 2}
+      propertyPath: DeviceConfiguration.RecordPath
+      value: /Users/cansik/git/private/multi-pointcloud-example/rs_recordings/example_20181105_013801.bag
+      objectReference: {fileID: 0}
+    - target: {fileID: 114866818567473902, guid: d2790e271f1a64347bb2ede5601b1e23,
+        type: 2}
+      propertyPath: DeviceConfiguration.PlaybackFile
+      value: /Users/cansik/git/private/multi-pointcloud-example/rs_recordings/example_20181105_013801.bag
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: d2790e271f1a64347bb2ede5601b1e23, type: 2}
