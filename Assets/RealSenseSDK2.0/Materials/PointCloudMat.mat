@@ -37,7 +37,7 @@ Material:
     - _Gamma: 0.45
     - _MaxRange: 10
     - _MinRange: 0.15
-    - _PointSize: 1
+    - _PointSize: 2
     - _Stencil: 0
     - _StencilComp: 8
     - _StencilOp: 0
