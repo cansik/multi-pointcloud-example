@@ -24,7 +24,7 @@ void Main(uint id : SV_DispatchThreadID)
     float4 origin = mul(Transform, float4(pt.xyz, 1));
     float radius = Extent.y / origin.w * ScreenHeight;
 
-    c.xyz = ReColor.xyz;
+    c.xyz = lerp(c, ReColor.xyz, ReColor.a);
 
    	pt.x = lerp(change, 0, pt.x);
 
