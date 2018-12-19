@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 1c71aaf9b787b4a1a8e730e069f7ee3b
+ScriptedImporter:
+  fileIDToRecycleName:
+    100000: prefab/New Game Object
+    400000: prefab/New Game Object/Transform
+    2300000: prefab/New Game Object/MeshRenderer
+    3300000: prefab/New Game Object/MeshFilter
+    100100000: prefab
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+  script: {fileID: 11500000, guid: 183c1cb276390b14e883dae29f585dfa, type: 3}
+  _containerType: 0

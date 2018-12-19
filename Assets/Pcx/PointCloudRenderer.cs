@@ -13,7 +13,7 @@ namespace Pcx
         [SerializeField] float _pointSize = 0.05f;
 
         [Range(0, 1)]
-        [SerializeField] private float change = 0.01f;
+        [SerializeField] private float change = 0.00f;
 
         #endregion
 
